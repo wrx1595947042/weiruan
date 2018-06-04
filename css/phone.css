@@ -1,0 +1,241 @@
+@charset "utf-8";
+body{
+	margin: 0 auto;
+}
+header{
+	padding: 16px 16px 13px 5px;
+}
+header .logo{
+	width: 157px;
+	height: 53px;
+	background: url(../images/logo_phone.png) no-repeat left center;
+}
+.hd_rh a{
+	color: #186FA4;
+	font-size: 18px;
+}
+.hd_rh em{
+	width: 23px;
+	height: 13px;
+	display: inline-block;
+	margin-left: 5px;
+	background: url(../images/cd.png) no-repeat right center;
+}
+.hd_rh i{
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin-left: 18px;
+	vertical-align: bottom;
+	background:  url(../images/fdj.png) no-repeat right center;
+}
+.hd_phone{
+	margin-top: 10px;
+}
+.nav ul li{
+	background-color: #1570A5;
+	line-height: 40px;
+	padding-left: 12px;
+	margin-bottom: 1px;
+	color: #fff;
+	font-size: 14px;
+}
+.nav ul li a{
+	color: #fff;
+}
+.nav ul li span{
+	margin-left: 5px;
+	color: #fff;
+}
+.nav .dl{
+	width: 100%;
+	height: 120px;
+	line-height: 40px;
+	display: none;
+}
+.ban_img img{
+	width: 100%;	
+}
+.ban_text{
+	background-color: #1570A5;
+	height: 140px;
+	color: #fff;
+	padding: 12px 45px 0 38px;
+}
+.ban_text h6{
+	margin-bottom: 15px;
+	font-size: 28px;
+	font-weight: normal;
+}
+.pad_img{
+	display: none;
+}
+.con_one ul li p{
+	margin-top: 12px;
+}
+.con_one ul .img{
+	margin-top: 23px;
+}
+.con_one ul li a{
+	color: #1771A5;
+}
+.con_pho{
+	margin-top: 52px;
+}
+.con_pho ul li{
+	float: left;
+	text-align: center;
+	line-height: 52px;
+}
+.con_pho ul li p{
+	margin-top: 6px;
+}
+.con_pho ul .li{
+	margin-left: 15px;
+}
+.con_pho ul .li2{
+	margin-left: 52px;
+}
+.con_pho ul .li3{
+	margin-left: 52px;
+	padding-right: 40px;
+}
+.con_pho ul .li3 img{
+	margin-top: 10px;
+}
+.con_pho ul .li4{
+	margin-left: 15px;
+	width: 70px;
+}
+.con_pho ul .li4 p{
+	line-height: 25px;
+}
+.con_pho ul .li5{
+	margin-left: 45px;
+}
+.con_pho_two{
+	height: 420px;
+	background-color: #1570A5;
+	padding: 24px 7px 33px 7px;
+}
+.con_pho_two .box{
+	margin-bottom: 28px;
+	background-color: #135D8C;
+	padding: 17px 22px 20px 18px;
+}
+.con_pho_two .box img{
+	margin-right: 24px;
+}
+.con_pho_two h1{
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 31px;
+	font-weight: normal;
+}
+.con_pho_two .pa{
+	font-size: 14px;
+	color: #fff;
+}
+.con_pho_two .pb{
+	font-size: 14px;
+	margin-top: 17px;
+	color: #fff;
+}
+.con_pad{
+	display: none;
+}
+.con_pad_one{
+	display: none;
+}
+.con_pad_two{
+	display: none;
+}
+.con_pad_three{
+	display: none;
+}
+.con_pad_four{
+	display: none;
+}
+.con_pc{
+	display: none;
+}
+.wz{
+	display: none;
+}
+.ft_one_ph .ul{
+	margin-top: 17px;
+	margin-left: 5px;
+	line-height: 30px;
+}
+.ft_one_ph .ul li span{
+	margin-left: 35px;
+}
+.ft_one_ph ul li a{
+	color: #1371A5;
+}
+.ft_one_ph .ul .li{
+	background: url(../images/phone_f.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li2{
+	background: url(../images/phone_f2.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li3{
+	background: url(../images/phone_f3.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li4{
+	background: url(../images/phone_f4.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li5{
+	background: url(../images/phone_f5.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li6{
+	background: url(../images/phone_f6.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li7{
+	background: url(../images/phone_f7.jpg) no-repeat left center;
+}
+.ft_one_ph .ul .li8{
+	background: url(../images/phone_f8.jpg) no-repeat left center;
+}
+.ft_one_ph .ul2{
+	margin-top: 50px;
+	line-height: 24px;
+	margin-left: 5px;
+}
+.ft_one_ph .ul3{
+	margin-top: 35px;
+	line-height: 24px;
+	margin-left: 5px;
+}
+.ft_one_pad{
+	display: none;
+}
+.ft_one_pc{
+	display: none;
+}
+footer{
+	margin-left: 5px;
+	margin-top: 25px;
+}
+footer p{
+	background: url(../images/map.jpg) no-repeat left center;
+}
+footer p span{
+	margin-left: 35px;
+}
+footer p span a{
+	color: #1670A2;
+}
+footer h4{
+	color: #656565;
+	margin-top: 37px;
+	margin-bottom: 22px;
+}
+footer ul{
+	font-size: 14px;
+	line-height: 27px;
+}
+footer ul li a{
+	float: left;
+	margin-right: 30px;
+}

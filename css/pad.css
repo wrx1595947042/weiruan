@@ -1,0 +1,280 @@
+@charset "utf-8";
+header .logo{
+	width: 320px;
+	background: url(../images/pad_logo.png) no-repeat center center;
+}
+.hd_phone{
+	display: none;
+}
+.hd_ipt input{
+	width: 242px;
+	height: 26px;
+	border:1px solid black;
+	margin-right: 11px;
+	margin-top: 10px;
+	background: url(../images/fdj.png) 218px center no-repeat;
+}
+.hd_ipt{
+	display: block;
+}
+.nav ul{
+	margin-left: 70px;
+}
+.nav ul li{
+	float: left;
+	margin-right: 30px;
+	background-color: #fff;
+	position: relative;
+}
+.nav dl{
+	position: absolute;
+	left:10px; top:100%;
+	background-color: #fff;
+	text-align: center;
+}
+.nav dl dd a{
+	color: #1A1A1A;
+}
+.nav ul li span{
+	color: #1A1A1A;
+}
+.nav ul li a{
+	color: #1A1A1A;
+}
+.nav li a{
+	width: 100%;
+	height: 216px;
+	color: black;
+}
+.ban_img img{
+	width: 100%;	
+}
+.ban_text{
+	background-color: #1570A5;
+	height: 140px;
+	color: #fff;
+	padding: 12px 45px 0 38px;
+}
+.ban_text h6{
+	margin-bottom: 15px;
+	font-size: 28px;
+	font-weight: normal;
+}
+.ph_img{
+	display: none;
+}
+.pad_img{
+	display: block;
+}
+.con_one ul li a{
+	color: #1771A5;
+}
+.con_one ul li{
+	float: left;
+	margin-left: 12px;
+}
+.con_one ul .img2{
+	width: 308px;
+	margin-top: 23px;
+}
+.con_pho{
+	display: none;
+}
+.con_pho_two{
+	display: none;
+}
+.con_pad{
+	display: block;
+	margin-top: 62px;
+	margin-bottom: 22px;
+}
+.con_pad h2{
+	margin-left: 20px;
+	font-size: 30px;
+}
+.con_pad ul li{
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.con_pad_one{
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+.con_pad_one p{
+	padding: 0 8px;
+	text-align: center;
+	line-height: 29px;
+}
+.con_pad_one .p{
+	height: 29px;
+	width: 85px;
+	background-color: #1570A6;
+	color: #fff;
+	float: left;
+}
+.con_pad_one .p2{
+	height: 29px;
+	width: 112px;
+	color: #000;
+	float: left;
+}
+.con_pad_one .p2:hover{
+	background-color: #1570A6;
+	color: #fff;
+}
+.con_pad_two{
+	display: block;
+}
+.con_pad_two ul{
+	margin-left: 20px;
+}
+.con_pad_two ul li{
+	margin-bottom: 41px;
+}
+.con_pad_two ul li img{
+	float: left;
+}
+.con_pad_two ul li p{
+	float: left;
+	margin-left: 23px;
+}
+.con_pad_three{
+	display: block;
+}
+.con_pad_three ul li h1{
+	font-size: 28px;
+	color: #000;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.con_pad_three ul li{
+	line-height: 28px;
+}
+.con_pad_three ul li a{
+	color: #1570A6;
+}
+.con_pad_three ul{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.con_pad_four{
+	display: block;
+	height: 260px;
+	padding: 16px 13px 46px 13px;
+	background-color: #1570A6;
+	margin-top: 70px;
+}
+.con_pad_four .box{
+	padding: 29px 30px 33px 29px;
+	background-color: #115E8B;
+	color: #fff;
+}
+.con_pad_four .box img{
+	margin-right: 25px;
+}
+.con_pad_four .box div h3{
+	float: left;
+}
+.con_pad_four h1{
+	font-size: 28px;
+	color: #fff;
+	margin-top: 28px;
+	margin-bottom: 20px;
+}
+.con_pad_four p a{
+	color: #fff;
+	margin-right: 15px;
+}
+.ft_one_ph{
+	display: none;
+}
+.ft_one_pad{
+	display: block;
+	height: 550px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 260px;
+}
+.ft_one_pad .ul{
+	width: 50%;
+	float: left;
+}
+.ft_one_pad .ul2{
+	width: 50%;
+	float: right;
+}
+.ft_one_pad ul li a{
+	color: #1371A5;
+}
+.ft_one_pad ul li{
+	line-height: 25px;
+}
+.ft_one_pad .ul{
+	padding-bottom: 230px;
+}
+.ft_one_pad .ul .li{
+	margin-top: 20px;
+	background: url(../images/phone_f.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li2{
+	background: url(../images/phone_f2.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li3{
+	background: url(../images/phone_f3.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li4{
+	background: url(../images/phone_f4.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li5{
+	background: url(../images/phone_f5.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li6{
+	background: url(../images/phone_f6.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li7{
+	background: url(../images/phone_f7.jpg) no-repeat left center;
+}
+.ft_one_pad .ul .li8{
+	background: url(../images/phone_f8.jpg) no-repeat left center;
+}
+.ft_one_pad .ul li span{
+	margin-left: 35px;
+}
+.ft_one_pad .ul li{
+	line-height: 30px;
+}
+.ft_one_pc{
+	display: none;
+}
+
+footer{
+	margin-left: 20px;
+	margin-top: 25px;
+}
+footer p{
+	background: url(../images/map.jpg) no-repeat left center;
+}
+footer p span{
+	margin-left: 35px;
+}
+footer p span a{
+	color: #1670A2;
+}
+footer h4{
+	color: #656565;
+	margin-top: 37px;
+	margin-bottom: 22px;
+}
+footer ul{
+	font-size: 14px;
+	line-height: 27px;
+}
+footer ul li{
+	float: left;
+	margin-right: 10px;
+}
+footer ul li .br{
+	display: none;
+}

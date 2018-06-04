@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/phone.css">
+	<link rel="stylesheet" href="css/pad.css" media="(min-width:768px)">
+	<link rel="stylesheet" href="css/pc.css" media="(min-width:992px)">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+</head>
+<body>
+	<header class="clearfix">
+		<div class="logo fl"></div>
+		<div class="hd_rh">
+			<div class="hd_phone">
+				<a href="#">菜单</a>
+				<em></em>
+				<i></i>
+			</div>
+			<form class="hd_ipt fr">
+				<input type="text">
+			</form>
+		</div>
+	</header>
+
+
+		<div class="nav">
+			<ul>
+				<li id="caidan"><a href="#">购买<span>&or;</span></a>
+					<dl id="dl" class="dl">
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+					</dl>
+				</li>
+				<li id="caidan"><a href="#">产品<span>&or;</span></a>
+					<dl id="dl"  class="dl">
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+					</dl>
+				</li>
+				<li id="caidan"><a href="#">下载<span>&or;</span></a>
+					<dl id="dl"  class="dl">
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+					</dl>
+				</li>
+				<li id="caidan"><a href="#">支持<span>&or;</span></a>
+					<dl id="dl"  class="dl">
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+						<dd><a href="#">菜单</a></dd>
+					</dl>
+				</li>
+			</ul>
+			<script>
+			var caidan = document.getElementById('caidan');
+			var dl = document.getElementById('dl');
+
+			caidan.onclick = function (){
+				if(dl.style.display == 'block'){
+					dl.style.display ='none'
+				}
+				else{
+					dl.style.display ='block'
+				}
+			}
+			</script>
+		</div>
+
+
+		<div class="banner gwidth">
+			<div class="ban_img">
+				<img src="images/phone_banner.png" alt="" class="ph_img">
+				<img src="images/pad_banner.png" alt="" class="pad_img">
+			</div>
+			<div class="ban_text">
+				<h6>Surface</h6>
+				<p>了解能够取代您的笔记本电脑的平板电脑。&nbsp;Surface Pro 3。</p>
+				<p>了解详情</p>
+			</div>
+		</div>
+
+
+		<div class="con_one gwidth clearfix">
+			<ul class="gwidth">
+				<li class="img"><img src="images/photo.jpg" alt=""><p><a href="">以低廉的价格购买 Office 365 个人版。</a></p></li>
+				<li class="img2"><img src="images/photo2.jpg" alt=""><p><a href="">全新的 Windows 现已问世</p></a></li>
+				<li class="img2"><img src="images/photo3.jpg" alt=""><p><a href="">4100万像素，Nokia Lumia 1020，无可匹敌。</p></a></li>
+			</ul>
+		</div>
+
+		<div class="con_pho clearfix">
+			<ul>
+				<li class="li"><img src="images/phone_win.jpg" alt=""><p>Windows</p></li>
+				<li class="li2"><img src="images/phone_off.jpg" alt=""><p>Office</p></li>
+				<li class="li3"><img src="images/phone_sur.jpg" alt=""><p>Surface</p></li>
+				<li class="li4"><img src="images/phone_win2.jpg" alt=""><p>Windows Phone</p></li>
+				<li class="li5"><img src="images/phone_sk.jpg" alt=""><p>Skype</p></li>
+			</ul>
+		</div>
+		<div class="con_pho_two">
+			<div class="box fl clearfix">
+				<img src="images/box_img.jpg" alt="" class="fl">
+				<p>住建部与微软共探未来城市评估体系,助力智慧竞争2014年4月23日,北京——今天,首届"未来城市·智慧竞争"研讨会在北京顺利举行。研讨会由住房和城乡建设部与微软合作成立的智慧城市技术解决方案联合实验室主办,集中讨论未来城市的智慧竞争之道，为中国未来城市的发展指明方向。</p>
+			</div>
+			<h1>关注微软</h1>
+			<p class="pa">公司新闻</p>
+			<p class="pb">微软@社交媒体</p>
+		</div>
+
+
+		<div class="con_pad clearfix">
+			<h2>了解</h2>
+			<ul>
+				<li><a href="#">Windows</a></li>
+				<li><a href="#">Office</a></li>
+				<li><a href="#">Surface</a></li>
+				<li><a href="#">Windows Phone</a></li>
+				<li><a href="#">Skype</a></li>
+			</ul>
+		</div>
+		<div class="con_pad_one clearfix">
+			<p class="p">适用于家中</p>
+			<p class="p2">适用于工作地点</p>
+		</div>
+		<div class="con_pad_two clearfix">
+			<ul class="clearfix">
+				<li class="clearfix"><img src="images/pad_t.png" alt=""><p><a href="#">获取微软官方商城购物免运费优惠。</a></p></li>
+				<li class="clearfix"><img src="images/pad_t2.png" alt=""><p><a href="#">下载Windows量身定制的最新浏览器</a></p></li>
+				<li class="clearfix"><img src="images/pad_t3.png" alt=""><p><a href="#">在更多设备上使用Office。现在还可以在iPad&reg;上使用。</a></p></li>
+			</ul>
+		</div>
+		<div class="con_pad_three">
+			<ul>
+				<li><h1>下载</h1></li>
+				<li><a href="#">所有 Windows 下载</a></li>
+				<li><a href="#">所有 Office 下载</a></li>
+				<li><a href="#">微软中国下载中心</a></li>
+			</ul>
+			<ul>
+				<li><h1>安全与更新</h1></li>
+				<li><a href="#">Microsoft Update</a></li>
+				<li><a href="#">微软安全软件</a></li>
+				<li><a href="#">Microsoft 账户安全信息</a></li>
+			</ul>
+			<ul>
+				<li><h1>支持</h1></li>
+				<li><a href="#">Windows XP 即将结束支持</a></li>
+				<li><a href="#">Windows 帮助和操作方法</a></li>
+				<li><a href="#">Office 帮助和操作方法</a></li>
+				<li><a href="#">微软帮助与支持</a></li>
+			</ul>
+		</div>
+		<div class="con_pad_four">
+			<div class="box clearfix">
+				<img src="images/padimg.png" alt="" class="fl">
+				<div>
+					<h3>微软欢迎诺基亚设备与服务部门正式加入微软大家庭</h3><br><br>
+					<p>2014年4月25日,北京——微软宣布已完成对诺基亚设备与服务部门的收购。此次收购已经获得诺基亚股东和各国各地区监管机构的批准。完成收购是两级公司合二为一的第一步。</p>
+				</div>
+			</div>
+			<h1>关注微软</h1>
+			<p><a href="#">公司新闻</a><a href="#">微软@社交媒体</a></p>
+		</div>
+
+		<div class="con_pc gwidth clearfix">
+			<div class="pc_left fl">
+				<ul>
+					<li><h1>了解</h1></li>
+					<li><a href="#">Windows</a></li>
+					<li><a href="#">Office</a></li>
+					<li><a href="#">Surface</a></li>
+					<li><a href="#">Windows Phone</a></li>
+					<li><a href="#">Skype</a></li>
+				</ul>
+			</div>
+			<div class="pc_right fl">
+				<div class="con_pc_one clearfix">
+					<p class="p">适用于家中</p>
+					<p class="p2">适用于工作地点</p>
+				</div>
+				<div class="con_two clearfix">
+					<ul class="clearfix">
+						<li class="clearfix"><img src="images/pc_t.png" alt=""><p><a href="#">获取微软官方商城购物免运费优惠。</a></p></li>
+						<li class="clearfix"><img src="images/pc_t2.png" alt=""><p><a href="#">下载Windows量身定制的最新浏览器</a></p></li>
+						<li class="clearfix"><img src="images/pc_t3.png" alt=""><p><a href="#">在更多设备上使用Office。现在还可以在iPad&reg;上使用。</a></p></li>
+					</ul>
+				</div>
+				<div class="con_pc_three">
+					<ul>
+						<li><h1>下载</h1></li>
+						<li><a href="#">所有 Windows 下载</a></li>
+						<li><a href="#">所有 Office 下载</a></li>
+						<li><a href="#">微软中国下载中心</a></li>
+					</ul>
+					<ul>
+						<li><h1>安全与更新</h1></li>
+						<li><a href="#">Microsoft Update</a></li>
+						<li><a href="#">微软安全软件</a></li>
+						<li><a href="#">Microsoft 账户安全信息</a></li>
+					</ul>
+					<ul class="ul">
+						<li><h1>支持</h1></li>
+						<li><a href="#">Windows XP 即将结束支持</a></li>
+						<li><a href="#">Windows 帮助和操作方法</a></li>
+						<li><a href="#">Office 帮助和操作方法</a></li>
+						<li><a href="#">微软帮助与支持</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wz gwidth clearfix">
+			<div class="wz_left fl">
+				<ul>
+					<li><h1>关注微软</h1></li>
+					<li><a href="#">公司新闻</a></li>
+					<li><a href="#">微软@社交媒体</a></li>
+				</ul>
+			</div>
+			<div class="wz_right fr">
+				<img src="images/pc_img.png" alt="">
+				<div>
+					<h3>微软欢迎诺基亚设备与服务部门正式加入微软大家庭</h3><br><br>
+					<p>2014年4月25日,北京——微软宣布已完成对诺基亚设备与服务部门的收购。此次收购已经获得诺基亚股东和各国各地区监管机构的批准。完成收购是两级公司合二为一的第一步。</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="ft_one_ph">
+				<ul class="ul">
+					<li>其它微软站点</li>
+					<li class="li"><span>Windows</span></li>
+					<li class="li2"><span>Office</span></li>
+					<li class="li3"><span>Surface</span></li>
+					<li class="li4"><span>Windows Phone</span></li>
+					<li class="li5"><span>Nokia 设备</span></li>
+					<li class="li6"><span>Skype</span></li>
+					<li class="li7"><span>必应 bing</span></li>
+					<li class="li8"><span>微软官方商城</span></li>
+				</ul>
+				<ul class="ul2">
+					<li>下载</li>
+					<li><a href="#">微软中国下载中心</a></li>
+					<li><a href="#">所有 Windows 下载</a></li>
+					<li><a href="#">Office(Outlook、Excel和其他)</a></li>
+					<li><a href="#">免费下载</a></li>
+					<li><a href="#">Internet Explorer</a></li>
+					<li><a href="#">所有 Office 下载</a></li>
+					<li><a href="#">驱动程序(声音、打印机、USB和其他)</a></li>
+				</ul>
+				<ul class="ul3">
+					<li>热门资源</li>
+					<li><a href="#">Windows Phone 和智能电话</a></li>
+					<li><a href="#">Microsoft Dynamics CRM</a></li>
+					<li><a href="#">Windows 软件</a></li>
+					<li><a href="#">Office 培训</a></li>
+					<li><a href="#">PC</a></li>
+					<li><a href="#">Windows RT</a></li>
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Microsoft Office academic edition</a></li>
+					<li><a href="#">Windows 应用</a></li>
+				</ul>
+		</div>
+
+		<div class="ft_one_pad gwidth">
+				<ul class="ul">
+					<li>其它微软站点</li>
+					<li class="li"><span>Windows</span></li>
+					<li class="li2"><span>Office</span></li>
+					<li class="li3"><span>Surface</span></li>
+					<li class="li4"><span>Windows Phone</span></li>
+					<li class="li5"><span>Nokia 设备</span></li>
+					<li class="li6"><span>Skype</span></li>
+					<li class="li7"><span>必应 bing</span></li>
+					<li class="li8"><span>微软官方商城</span></li>
+				</ul>
+				<ul class="ul2">
+					<li class="li_x">下载</li>
+					<li><a href="#">微软中国下载中心</a></li>
+					<li><a href="#">所有 Windows 下载</a></li>
+					<li><a href="#">Office(Outlook、Excel和其他)</a></li>
+					<li><a href="#">免费下载</a></li>
+					<li><a href="#">Internet Explorer</a></li>
+					<li><a href="#">所有 Office 下载</a></li>
+					<li><a href="#">驱动程序(声音、打印机、USB和其他)</a></li>
+				</ul>
+				<ul class="ul_zc">
+					<li>支持</li>
+					<li><a href="#">微软帮助与支持</a></li>
+					<li><a href="#">微软安全软件</a></li>
+					<li><a href="#">Microsoft Update:Service Pack、修补程序等</a></li>
+					<li><a href="#">Windows 帮助和操作方法</a></li>
+					<li><a href="#">Office(Outlook、Excel和其他)</a></li>
+				</ul>
+				<ul class="ul_about">
+					<li>关于</li>
+					<li><a href="#">关于微软</a></li>
+					<li><a href="#">Microsoft 账户</a></li>
+					<li><a href="#">招贤纳士</a></li>
+					<li><a href="#">微软虚拟会议</a></li>
+					<li><a href="#">订阅微软电子期刊</a></li>
+					<li><a href="#">网站地图</a></li>
+				</ul>
+				<ul class="ul3">
+					<li>热门资源</li>
+					<li><a href="#">Windows Phone 和智能电话</a></li>
+					<li><a href="#">Microsoft Dynamics CRM</a></li>
+					<li><a href="#">Windows 软件</a></li>
+					<li><a href="#">Office 培训</a></li>
+					<li><a href="#">PC</a></li>
+					<li><a href="#">Windows RT</a></li>
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Microsoft Office academic edition</a></li>
+					<li><a href="#">Windows 应用</a></li>
+				</ul>
+		</div>
+
+		<div class="ft_one_pc gwidth">
+				<ul class="ul">
+					<li>其它微软站点</li>
+					<li class="li"><span>Windows</span></li>
+					<li class="li2"><span>Office</span></li>
+					<li class="li3"><span>Surface</span></li>
+					<li class="li4"><span>Windows Phone</span></li>
+					<li class="li5"><span>Nokia 设备</span></li>
+					<li class="li6"><span>Skype</span></li>
+					<li class="li7"><span>必应 bing</span></li>
+					<li class="li8"><span>微软官方商城</span></li>
+				</ul>
+				<ul class="ul2">
+					<li class="li_x">下载</li>
+					<li><a href="#">微软中国下载中心</a></li>
+					<li><a href="#">所有 Windows 下载</a></li>
+					<li><a href="#">Office(Outlook、Excel和其他)</a></li>
+					<li><a href="#">免费下载</a></li>
+					<li><a href="#">Internet Explorer</a></li>
+					<li><a href="#">所有 Office 下载</a></li>
+					<li><a href="#">驱动程序(声音、打印机、USB和其他)</a></li>
+				</ul>
+				<ul class="ul_zc">
+					<li>支持</li>
+					<li><a href="#">微软帮助与支持</a></li>
+					<li><a href="#">微软安全软件</a></li>
+					<li><a href="#">Microsoft Update:Service Pack、修补程序等</a></li>
+					<li><a href="#">Windows 帮助和操作方法</a></li>
+					<li><a href="#">Office(Outlook、Excel和其他)</a></li>
+				</ul>
+				<ul class="ul_about">
+					<li>关于</li>
+					<li><a href="#">关于微软</a></li>
+					<li><a href="#">Microsoft 账户</a></li>
+					<li><a href="#">招贤纳士</a></li>
+					<li><a href="#">微软虚拟会议</a></li>
+					<li><a href="#">订阅微软电子期刊</a></li>
+					<li><a href="#">网站地图</a></li>
+				</ul>
+				<ul class="ul3">
+					<li>热门资源</li>
+					<li><a href="#">Windows Phone 和智能电话</a></li>
+					<li><a href="#">Microsoft Dynamics CRM</a></li>
+					<li><a href="#">Windows 软件</a></li>
+					<li><a href="#">Office 培训</a></li>
+					<li><a href="#">PC</a></li>
+					<li><a href="#">Windows RT</a></li>
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Microsoft Office academic edition</a></li>
+					<li><a href="#">Windows 应用</a></li>
+				</ul>
+		</div>
+
+		<footer class="gwidth">
+			<p><span><a href="#">中文-中国</a></span></p>
+			<h4>Microsoft</h4>
+			<ul>
+				<li>京ICP备09042378号-6</li>
+				<li>京公网安备11010802010597</li>
+				<li><a href="#">与我们联系</a></li>
+				<li><a href="#">隐私权声明</a></li>
+				<li class="jc"><a href="#">使用条款</a></li>
+				<li><br class="br"><a href="#">商标</a></li>
+				<li><a href="#">有关我们的广告信息</a></li>
+				<li><br class="br">&copy; 2014 Microsoft</li>
+			</ul>
+		</footer>
+</body>
+</html>
